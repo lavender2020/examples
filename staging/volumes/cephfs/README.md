@@ -31,6 +31,12 @@ Here are the commands:
 ```
 
  If you ssh to that machine, you can run `docker ps` to see the actual pod and `docker inspect` to see the volumes used by the container.
+ 
+ 
+ 
+ # How to manage the pv quota
+ 
+ We know that k8s pvc can do the quota of volume. But how can cepfs do it?
 
 
 <!-- BEGIN MUNGE: GENERATED_ANALYTICS -->
